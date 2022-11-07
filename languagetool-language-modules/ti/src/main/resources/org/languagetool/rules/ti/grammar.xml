@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../../../../../languagetool-core/src/main/resources/org/languagetool/rules/print.xsl" ?>
+<?xml-stylesheet type="text/css" href="../../../../../../../../../languagetool-core/src/main/resources/org/languagetool/rules/rules.css"
+        title="Easy editing stylesheet" ?>
+
+
+<!DOCTYPE rules >
+
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       lang="ti"
+       xsi:noNamespaceSchemaLocation="../../../../../../../../../languagetool-core/src/main/resources/org/languagetool/rules/rules.xsd">
+
+    <category id="TO_REVIEW" name="cat" type="grammar" default="off">
+        <rule id="EXAMPLE_RULE" name="My example rule">
+            <pattern>
+                <token/>
+            </pattern>
+            <message/>
+            <example/>
+        </rule>
+    </category>
+</rules>
